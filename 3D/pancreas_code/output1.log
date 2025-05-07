@@ -1,0 +1,32 @@
+nohup: ignoring input
+Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+Using transformerblock: <class 'networks.d_lka_former.transformerblock.TransformerBlock_3D_single_deform_LKA'>
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using skip connection in decoder: True
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using skip connection in decoder: True
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using skip connection in decoder: True
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using LKA Attention with one deformable layer
+Using skip connection in decoder: True
+train0.list
+total 62 unlabel_samples
+62 itertations per epoch
+  0%|                                          | 0/97 [00:00<?, ?it/s]

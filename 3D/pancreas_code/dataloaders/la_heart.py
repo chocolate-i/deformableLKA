@@ -5,6 +5,7 @@ import h5py
 import itertools
 from torch.utils.data.sampler import Sampler
 from PIL import ImageFilter
+import os
 
 class LAHeart(Dataset):
     """ LA Dataset """
@@ -15,7 +16,7 @@ class LAHeart(Dataset):
         self.sample_list = []
         print(train_flod)
         if split=='train':
-            with open(self._base_dir+'/Pancreas/Flods/'+train_flod, 'r') as f: #/LA/Flods/
+            with open(os.path.join(self._base_dir, 'Flods', train_flod), 'r') as f:
                 self.image_list = f.readlines()
         self.image_list = [item.replace('\n','') for item in self.image_list]
 
@@ -27,7 +28,7 @@ class LAHeart(Dataset):
     def __getitem__(self, idx):
         #print("Index: {}".format(idx))
         image_name = self.image_list[idx]
-        h5f = h5py.File(self._base_dir+"/"+image_name, 'r') #+"/mri_norm2.h5", 'r')
+        h5f = h5py.File(os.path.join(self._base_dir, "pancreas_data", image_name), 'r')
         image = h5f['image'][:]
         label = h5f['label'][:]
         sample = {'image': image, 'label': label}

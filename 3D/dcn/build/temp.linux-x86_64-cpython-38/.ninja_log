@@ -1,0 +1,4 @@
+# ninja log v5
+0	3787	1746598133663158800	/root/chennuo/deformableLKA/3D/dcn/build/temp.linux-x86_64-cpython-38/root/chennuo/deformableLKA/3D/dcn/src/cpu/deform_cpu.o	1ede17c778f9853b
+0	13445	1746598143311028642	/root/chennuo/deformableLKA/3D/dcn/build/temp.linux-x86_64-cpython-38/root/chennuo/deformableLKA/3D/dcn/src/cuda/deform_conv_cuda.o	99c894a2629e49fe
+1	18066	1746598147930965733	/root/chennuo/deformableLKA/3D/dcn/build/temp.linux-x86_64-cpython-38/root/chennuo/deformableLKA/3D/dcn/src/vision.o	67103fb7b53f19b4

@@ -2,12 +2,21 @@
 
 import os
 import glob
-
 import torch
+import torch.utils.cpp_extension
 
-from torch.utils.cpp_extension import CUDA_HOME
+# 导入必要的扩展类
 from torch.utils.cpp_extension import CppExtension
 from torch.utils.cpp_extension import CUDAExtension
+from torch.utils.cpp_extension import BuildExtension
+
+# 修改为系统中实际的CUDA路径
+cuda_path = '/usr/lib/nvidia-cuda-toolkit'
+os.environ['CUDA_HOME'] = cuda_path
+torch.utils.cpp_extension.CUDA_HOME = cuda_path
+
+# 确保CUDA_HOME可用于后续代码
+CUDA_HOME = torch.utils.cpp_extension.CUDA_HOME
 
 from setuptools import find_packages
 from setuptools import setup
@@ -27,7 +36,8 @@ def get_extensions():
     extra_compile_args = {"cxx": []}
     define_macros = []
 
-    if torch.cuda.is_available() and CUDA_HOME is not None:
+    # 使用系统中存在的CUDA
+    if torch.cuda.is_available():
         extension = CUDAExtension
         sources += source_cuda
         define_macros += [("WITH_CUDA", None)]
@@ -38,7 +48,7 @@ def get_extensions():
             "-D__CUDA_NO_HALF2_OPERATORS__",
         ]
     else:
-        raise NotImplementedError('Cuda is not availabel')
+        raise NotImplementedError('Cuda is not available')
 
     sources = [os.path.join(extensions_dir, s) for s in sources]
     include_dirs = [extensions_dir]

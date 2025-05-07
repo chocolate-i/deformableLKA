@@ -20,6 +20,10 @@ from d_lka_former.paths import default_plans_identifier
 from d_lka_former.utilities.task_name_id_conversion import convert_id_to_task_name
 import numpy as np
 import torch
+import sys
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 import importlib
 #from d_lka_former.network_architecture.synapse.transformerblock import TransformerBlock, TransformerBlock_3D_LKA, TransformerBlock_LKA_Channel, TransformerBlock_SE, TransformerBlock_Deform_LKA_Channel, TransformerBlock_Deform_LKA_Channel_sequential, TransformerBlock_3D_LKA_3D_conv, TransformerBlock_LKA_Channel_norm, TransformerBlock_LKA_Spatial, TransformerBlock_Deform_LKA_Spatial_sequential, TransformerBlock_Deform_LKA_Spatial, TransformerBlock_3D_single_deform_LKA

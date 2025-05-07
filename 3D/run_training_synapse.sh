@@ -1,6 +1,11 @@
 #!/bin/sh
 
-DATASET_PATH=/home/leon/repos/deformableLKA/3D/DATASET
+DATASET_PATH=/root/chennuo/deformableLKA/3D/DATASET
+
+# 修改为CUDA 10.2环境设置
+export CUDA_HOME=/usr/local/cuda-10.2
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+export PATH=$CUDA_HOME/bin:$PATH
 
 export PYTHONPATH=./
 export RESULTS_FOLDER=output_synapse_test_continuing

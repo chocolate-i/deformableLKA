@@ -6,3 +6,825 @@
 [18:49:54.465] 62 itertations per epoch
 [19:13:17.470] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='./dataset_pancreas', seed=1337)
 [19:13:19.754] 62 itertations per epoch
+[16:33:52.362] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='./dataset_pancreas', seed=1337)
+[16:33:56.811] 62 itertations per epoch
+[16:42:17.986] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas', seed=1337)
+[16:42:22.466] 62 itertations per epoch
+[16:42:47.148] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:44:37.803] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:44:58.503] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:46:45.918] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:46:50.423] 62 itertations per epoch
+[16:48:31.862] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:48:52.656] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:49:07.926] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:49:12.372] 62 itertations per epoch
+[16:51:01.136] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:52:06.140] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:52:41.924] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:54:48.657] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:55:15.604] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:55:20.067] 62 itertations per epoch
+[16:55:55.063] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:58:12.295] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:58:16.687] 62 itertations per epoch
+[16:59:20.952] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:59:25.350] 62 itertations per epoch
+[16:59:30.898] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[16:59:35.262] 62 itertations per epoch
+[17:04:04.893] Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[17:04:09.357] 62 itertations per epoch
+[17:06:45.731] iteration: 50 Total loss : 1.021321 CE loss : 0.266862 Dice loss : 0.754459
+[17:09:22.557] iteration: 100 Total loss : 0.742095 CE loss : 0.203174 Dice loss : 0.538921
+[17:12:01.687] iteration: 150 Total loss : 1.089519 CE loss : 0.108256 Dice loss : 0.981263
+[17:14:38.955] iteration: 200 Total loss : 0.455321 CE loss : 0.084435 Dice loss : 0.370885
+[17:17:16.063] iteration: 250 Total loss : 1.257189 CE loss : 0.403507 Dice loss : 0.853682
+[17:19:52.463] iteration: 300 Total loss : 0.550630 CE loss : 0.179543 Dice loss : 0.371086
+[17:21:39.399] INFO: Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[17:21:43.859] INFO: 62 itertations per epoch
+[17:21:43.862] DEBUG: Starting epoch 0
+[17:21:44.253] DEBUG: Epoch: 0, Batch: 0, Time elapsed: 0.39s
+[17:21:44.253] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:21:44.254] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:21:44.256] DEBUG: Data transferred to GPU
+[17:21:44.808] DEBUG: Forward pass completed
+[17:21:44.829] DEBUG: Loss calculated: Total: 1.6655333042144775, CE: 0.819765031337738, Dice: 0.8457682728767395
+[17:21:47.261] DEBUG: Backward pass and optimizer step completed
+[17:21:47.264] DEBUG: Epoch: 0, Batch: 1, Time elapsed: 0.00s
+[17:21:47.265] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:21:47.265] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:21:47.266] DEBUG: Data transferred to GPU
+[17:21:47.686] DEBUG: Forward pass completed
+[17:21:47.707] DEBUG: Loss calculated: Total: 1.4331624507904053, CE: 0.6873074769973755, Dice: 0.745854914188385
+[17:21:50.153] DEBUG: Backward pass and optimizer step completed
+[17:21:50.155] DEBUG: Epoch: 0, Batch: 2, Time elapsed: 0.00s
+[17:21:50.156] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:21:50.156] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:21:50.157] DEBUG: Data transferred to GPU
+[17:21:50.570] DEBUG: Forward pass completed
+[17:21:50.592] DEBUG: Loss calculated: Total: 1.2816036939620972, CE: 0.5637514591217041, Dice: 0.7178522348403931
+[17:21:53.034] DEBUG: Backward pass and optimizer step completed
+[17:21:53.035] DEBUG: Epoch: 0, Batch: 3, Time elapsed: 0.00s
+[17:21:53.036] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:21:53.036] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:21:53.037] DEBUG: Data transferred to GPU
+[17:21:53.453] DEBUG: Forward pass completed
+[17:21:53.475] DEBUG: Loss calculated: Total: 1.1958485841751099, CE: 0.39345529675483704, Dice: 0.8023933172225952
+[17:21:55.935] DEBUG: Backward pass and optimizer step completed
+[17:21:55.936] DEBUG: Epoch: 0, Batch: 4, Time elapsed: 0.00s
+[17:21:55.937] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:21:55.937] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:21:55.938] DEBUG: Data transferred to GPU
+[17:21:56.354] DEBUG: Forward pass completed
+[17:21:56.376] DEBUG: Loss calculated: Total: 1.1847862005233765, CE: 0.36647191643714905, Dice: 0.8183143138885498
+[17:21:58.833] DEBUG: Backward pass and optimizer step completed
+[17:21:58.836] DEBUG: Epoch: 0, Batch: 5, Time elapsed: 0.00s
+[17:21:58.837] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:21:58.837] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:21:58.838] DEBUG: Data transferred to GPU
+[17:21:59.251] DEBUG: Forward pass completed
+[17:21:59.272] DEBUG: Loss calculated: Total: 0.9683205485343933, CE: 0.30539995431900024, Dice: 0.6629205942153931
+[17:22:01.736] DEBUG: Backward pass and optimizer step completed
+[17:22:01.738] DEBUG: Epoch: 0, Batch: 6, Time elapsed: 0.00s
+[17:22:01.739] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:01.739] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:01.740] DEBUG: Data transferred to GPU
+[17:22:02.157] DEBUG: Forward pass completed
+[17:22:02.179] DEBUG: Loss calculated: Total: 0.8887636661529541, CE: 0.2692995071411133, Dice: 0.6194641590118408
+[17:22:04.655] DEBUG: Backward pass and optimizer step completed
+[17:22:04.657] DEBUG: Epoch: 0, Batch: 7, Time elapsed: 0.00s
+[17:22:04.658] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:04.658] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:04.659] DEBUG: Data transferred to GPU
+[17:22:05.074] DEBUG: Forward pass completed
+[17:22:05.096] DEBUG: Loss calculated: Total: 0.8533587455749512, CE: 0.23185595870018005, Dice: 0.6215027570724487
+[17:22:07.574] DEBUG: Backward pass and optimizer step completed
+[17:22:07.575] DEBUG: Epoch: 0, Batch: 8, Time elapsed: 0.00s
+[17:22:07.576] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:07.576] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:07.577] DEBUG: Data transferred to GPU
+[17:22:07.996] DEBUG: Forward pass completed
+[17:22:08.018] DEBUG: Loss calculated: Total: 0.9475942254066467, CE: 0.22504200041294098, Dice: 0.7225522398948669
+[17:22:10.497] DEBUG: Backward pass and optimizer step completed
+[17:22:10.499] DEBUG: Epoch: 0, Batch: 9, Time elapsed: 0.00s
+[17:22:10.500] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:10.500] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:10.501] DEBUG: Data transferred to GPU
+[17:22:10.923] DEBUG: Forward pass completed
+[17:22:10.945] DEBUG: Loss calculated: Total: 0.892299234867096, CE: 0.15667270123958588, Dice: 0.7356265187263489
+[17:22:13.428] DEBUG: Backward pass and optimizer step completed
+[17:22:13.430] DEBUG: Epoch: 0, Batch: 10, Time elapsed: 0.00s
+[17:22:13.430] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:13.431] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:13.432] DEBUG: Data transferred to GPU
+[17:22:13.851] DEBUG: Forward pass completed
+[17:22:13.873] DEBUG: Loss calculated: Total: 0.9041444659233093, CE: 0.2355824112892151, Dice: 0.6685620546340942
+[17:22:16.362] DEBUG: Backward pass and optimizer step completed
+[17:22:16.364] DEBUG: Epoch: 0, Batch: 11, Time elapsed: 0.00s
+[17:22:16.364] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:16.365] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:16.366] DEBUG: Data transferred to GPU
+[17:22:16.787] DEBUG: Forward pass completed
+[17:22:16.810] DEBUG: Loss calculated: Total: 0.8983925580978394, CE: 0.15194329619407654, Dice: 0.7464492917060852
+[17:22:19.306] DEBUG: Backward pass and optimizer step completed
+[17:22:19.308] DEBUG: Epoch: 0, Batch: 12, Time elapsed: 0.00s
+[17:22:19.309] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:19.309] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:19.310] DEBUG: Data transferred to GPU
+[17:22:19.729] DEBUG: Forward pass completed
+[17:22:19.751] DEBUG: Loss calculated: Total: 0.8861375451087952, CE: 0.19651325047016144, Dice: 0.6896243095397949
+[17:22:22.244] DEBUG: Backward pass and optimizer step completed
+[17:22:22.246] DEBUG: Epoch: 0, Batch: 13, Time elapsed: 0.00s
+[17:22:22.246] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:22.246] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:22.247] DEBUG: Data transferred to GPU
+[17:22:22.667] DEBUG: Forward pass completed
+[17:22:22.689] DEBUG: Loss calculated: Total: 0.9743793606758118, CE: 0.20140375196933746, Dice: 0.7729756236076355
+[17:22:25.189] DEBUG: Backward pass and optimizer step completed
+[17:22:25.191] DEBUG: Epoch: 0, Batch: 14, Time elapsed: 0.00s
+[17:22:25.192] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:25.192] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:25.193] DEBUG: Data transferred to GPU
+[17:22:25.616] DEBUG: Forward pass completed
+[17:22:25.638] DEBUG: Loss calculated: Total: 0.6922071576118469, CE: 0.0937705710530281, Dice: 0.5984365940093994
+[17:22:28.154] DEBUG: Backward pass and optimizer step completed
+[17:22:28.156] DEBUG: Epoch: 0, Batch: 15, Time elapsed: 0.00s
+[17:22:28.156] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:28.156] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:28.157] DEBUG: Data transferred to GPU
+[17:22:28.589] DEBUG: Forward pass completed
+[17:22:28.611] DEBUG: Loss calculated: Total: 0.9127222895622253, CE: 0.23359163105487823, Dice: 0.6791306734085083
+[17:22:31.130] DEBUG: Backward pass and optimizer step completed
+[17:22:31.131] DEBUG: Epoch: 0, Batch: 16, Time elapsed: 0.00s
+[17:22:31.132] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:31.132] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:31.133] DEBUG: Data transferred to GPU
+[17:22:31.559] DEBUG: Forward pass completed
+[17:22:31.582] DEBUG: Loss calculated: Total: 0.8819820880889893, CE: 0.2223896086215973, Dice: 0.6595925092697144
+[17:22:34.098] DEBUG: Backward pass and optimizer step completed
+[17:22:34.100] DEBUG: Epoch: 0, Batch: 17, Time elapsed: 0.00s
+[17:22:34.101] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:34.101] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:34.102] DEBUG: Data transferred to GPU
+[17:22:34.528] DEBUG: Forward pass completed
+[17:22:34.550] DEBUG: Loss calculated: Total: 0.7780315279960632, CE: 0.12433712929487228, Dice: 0.6536943912506104
+[17:22:37.072] DEBUG: Backward pass and optimizer step completed
+[17:22:37.074] DEBUG: Epoch: 0, Batch: 18, Time elapsed: 0.00s
+[17:22:37.075] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:37.075] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:37.076] DEBUG: Data transferred to GPU
+[17:22:37.508] DEBUG: Forward pass completed
+[17:22:37.529] DEBUG: Loss calculated: Total: 0.7658491730690002, CE: 0.19511564075946808, Dice: 0.5707335472106934
+[17:22:40.052] DEBUG: Backward pass and optimizer step completed
+[17:22:40.054] DEBUG: Epoch: 0, Batch: 19, Time elapsed: 0.00s
+[17:22:40.055] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:40.055] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:40.056] DEBUG: Data transferred to GPU
+[17:22:40.481] DEBUG: Forward pass completed
+[17:22:40.503] DEBUG: Loss calculated: Total: 0.7769004702568054, CE: 0.1654835343360901, Dice: 0.6114169359207153
+[17:22:43.026] DEBUG: Backward pass and optimizer step completed
+[17:22:43.028] DEBUG: Epoch: 0, Batch: 20, Time elapsed: 0.00s
+[17:22:43.028] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:43.029] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:43.031] DEBUG: Data transferred to GPU
+[17:22:43.455] DEBUG: Forward pass completed
+[17:22:43.478] DEBUG: Loss calculated: Total: 0.778948187828064, CE: 0.2400733381509781, Dice: 0.5388748645782471
+[17:22:46.010] DEBUG: Backward pass and optimizer step completed
+[17:22:46.011] DEBUG: Epoch: 0, Batch: 21, Time elapsed: 0.00s
+[17:22:46.012] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:46.012] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:46.013] DEBUG: Data transferred to GPU
+[17:22:46.433] DEBUG: Forward pass completed
+[17:22:46.456] DEBUG: Loss calculated: Total: 0.9988323450088501, CE: 0.2751432955265045, Dice: 0.723689079284668
+[17:22:49.001] DEBUG: Backward pass and optimizer step completed
+[17:22:49.003] DEBUG: Epoch: 0, Batch: 22, Time elapsed: 0.00s
+[17:22:49.003] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:49.003] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:49.004] DEBUG: Data transferred to GPU
+[17:22:49.430] DEBUG: Forward pass completed
+[17:22:49.452] DEBUG: Loss calculated: Total: 1.189494252204895, CE: 0.19530995190143585, Dice: 0.9941843152046204
+[17:22:51.998] DEBUG: Backward pass and optimizer step completed
+[17:22:52.000] DEBUG: Epoch: 0, Batch: 23, Time elapsed: 0.00s
+[17:22:52.001] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:52.001] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:52.002] DEBUG: Data transferred to GPU
+[17:22:52.427] DEBUG: Forward pass completed
+[17:22:52.450] DEBUG: Loss calculated: Total: 0.871964693069458, CE: 0.28294482827186584, Dice: 0.5890198349952698
+[17:22:54.990] DEBUG: Backward pass and optimizer step completed
+[17:22:54.992] DEBUG: Epoch: 0, Batch: 24, Time elapsed: 0.00s
+[17:22:54.992] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:54.993] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:54.994] DEBUG: Data transferred to GPU
+[17:22:55.422] DEBUG: Forward pass completed
+[17:22:55.444] DEBUG: Loss calculated: Total: 0.8226402997970581, CE: 0.2548108994960785, Dice: 0.5678293704986572
+[17:22:57.992] DEBUG: Backward pass and optimizer step completed
+[17:22:57.994] DEBUG: Epoch: 0, Batch: 25, Time elapsed: 0.00s
+[17:22:57.994] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:22:57.995] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:22:57.996] DEBUG: Data transferred to GPU
+[17:22:58.423] DEBUG: Forward pass completed
+[17:22:58.445] DEBUG: Loss calculated: Total: 0.7499681115150452, CE: 0.23184055089950562, Dice: 0.5181275606155396
+[17:23:00.990] DEBUG: Backward pass and optimizer step completed
+[17:23:00.992] DEBUG: Epoch: 0, Batch: 26, Time elapsed: 0.00s
+[17:23:00.993] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:00.993] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:00.994] DEBUG: Data transferred to GPU
+[17:23:01.418] DEBUG: Forward pass completed
+[17:23:01.440] DEBUG: Loss calculated: Total: 1.1669738292694092, CE: 0.19064895808696747, Dice: 0.9763249158859253
+[17:23:03.982] DEBUG: Backward pass and optimizer step completed
+[17:23:03.984] DEBUG: Epoch: 0, Batch: 27, Time elapsed: 0.00s
+[17:23:03.985] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:03.985] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:03.986] DEBUG: Data transferred to GPU
+[17:23:04.409] DEBUG: Forward pass completed
+[17:23:04.431] DEBUG: Loss calculated: Total: 0.7821668386459351, CE: 0.17869870364665985, Dice: 0.603468120098114
+[17:23:06.977] DEBUG: Backward pass and optimizer step completed
+[17:23:06.979] DEBUG: Epoch: 0, Batch: 28, Time elapsed: 0.00s
+[17:23:06.980] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:06.980] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:06.981] DEBUG: Data transferred to GPU
+[17:23:07.409] DEBUG: Forward pass completed
+[17:23:07.432] DEBUG: Loss calculated: Total: 1.0534199476242065, CE: 0.26691582798957825, Dice: 0.7865041494369507
+[17:23:09.984] DEBUG: Backward pass and optimizer step completed
+[17:23:09.986] DEBUG: Epoch: 0, Batch: 29, Time elapsed: 0.00s
+[17:23:09.986] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:09.987] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:09.988] DEBUG: Data transferred to GPU
+[17:23:10.417] DEBUG: Forward pass completed
+[17:23:10.440] DEBUG: Loss calculated: Total: 1.3232970237731934, CE: 0.38307154178619385, Dice: 0.9402255415916443
+[17:23:12.993] DEBUG: Backward pass and optimizer step completed
+[17:23:12.995] DEBUG: Epoch: 0, Batch: 30, Time elapsed: 0.00s
+[17:23:12.996] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:12.996] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:12.997] DEBUG: Data transferred to GPU
+[17:23:13.421] DEBUG: Forward pass completed
+[17:23:13.444] DEBUG: Loss calculated: Total: 0.7407776713371277, CE: 0.23305469751358032, Dice: 0.5077229738235474
+[17:23:15.992] DEBUG: Backward pass and optimizer step completed
+[17:23:15.994] DEBUG: Epoch: 0, Batch: 31, Time elapsed: 0.00s
+[17:23:15.995] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:15.995] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:15.996] DEBUG: Data transferred to GPU
+[17:23:16.421] DEBUG: Forward pass completed
+[17:23:16.444] DEBUG: Loss calculated: Total: 1.1058120727539062, CE: 0.2811364531517029, Dice: 0.8246756792068481
+[17:23:18.998] DEBUG: Backward pass and optimizer step completed
+[17:23:18.999] DEBUG: Epoch: 0, Batch: 32, Time elapsed: 0.00s
+[17:23:19.000] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:19.000] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:19.001] DEBUG: Data transferred to GPU
+[17:23:19.423] DEBUG: Forward pass completed
+[17:23:19.445] DEBUG: Loss calculated: Total: 0.8426045179367065, CE: 0.2265007346868515, Dice: 0.6161037683486938
+[17:23:21.998] DEBUG: Backward pass and optimizer step completed
+[17:23:22.000] DEBUG: Epoch: 0, Batch: 33, Time elapsed: 0.00s
+[17:23:22.000] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:22.001] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:22.002] DEBUG: Data transferred to GPU
+[17:23:22.426] DEBUG: Forward pass completed
+[17:23:22.449] DEBUG: Loss calculated: Total: 0.7331639528274536, CE: 0.18787063658237457, Dice: 0.5452933311462402
+[17:23:25.004] DEBUG: Backward pass and optimizer step completed
+[17:23:25.006] DEBUG: Epoch: 0, Batch: 34, Time elapsed: 0.00s
+[17:23:25.006] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:25.006] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:25.007] DEBUG: Data transferred to GPU
+[17:23:25.433] DEBUG: Forward pass completed
+[17:23:25.455] DEBUG: Loss calculated: Total: 0.9929898977279663, CE: 0.2557622492313385, Dice: 0.7372276186943054
+[17:23:28.014] DEBUG: Backward pass and optimizer step completed
+[17:23:28.016] DEBUG: Epoch: 0, Batch: 35, Time elapsed: 0.00s
+[17:23:28.016] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:28.017] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:28.018] DEBUG: Data transferred to GPU
+[17:23:28.447] DEBUG: Forward pass completed
+[17:23:28.470] DEBUG: Loss calculated: Total: 1.0812954902648926, CE: 0.25060755014419556, Dice: 0.8306878805160522
+[17:23:31.030] DEBUG: Backward pass and optimizer step completed
+[17:23:31.032] DEBUG: Epoch: 0, Batch: 36, Time elapsed: 0.00s
+[17:23:31.032] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:31.033] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:31.034] DEBUG: Data transferred to GPU
+[17:23:31.460] DEBUG: Forward pass completed
+[17:23:31.483] DEBUG: Loss calculated: Total: 1.0314521789550781, CE: 0.27080613374710083, Dice: 0.7606461048126221
+[17:23:34.040] DEBUG: Backward pass and optimizer step completed
+[17:23:34.043] DEBUG: Epoch: 0, Batch: 37, Time elapsed: 0.00s
+[17:23:34.043] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:34.044] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:34.045] DEBUG: Data transferred to GPU
+[17:23:34.476] DEBUG: Forward pass completed
+[17:23:34.498] DEBUG: Loss calculated: Total: 0.8143623471260071, CE: 0.18033367395401, Dice: 0.6340286731719971
+[17:23:37.058] DEBUG: Backward pass and optimizer step completed
+[17:23:37.060] DEBUG: Epoch: 0, Batch: 38, Time elapsed: 0.00s
+[17:23:37.060] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:37.061] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:37.062] DEBUG: Data transferred to GPU
+[17:23:37.484] DEBUG: Forward pass completed
+[17:23:37.507] DEBUG: Loss calculated: Total: 0.8170050978660583, CE: 0.21708138287067413, Dice: 0.5999237298965454
+[17:23:40.061] DEBUG: Backward pass and optimizer step completed
+[17:23:40.063] DEBUG: Epoch: 0, Batch: 39, Time elapsed: 0.00s
+[17:23:40.063] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:40.063] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:40.065] DEBUG: Data transferred to GPU
+[17:23:40.486] DEBUG: Forward pass completed
+[17:23:40.509] DEBUG: Loss calculated: Total: 0.8996251821517944, CE: 0.264815092086792, Dice: 0.6348100900650024
+[17:23:43.069] DEBUG: Backward pass and optimizer step completed
+[17:23:43.071] DEBUG: Epoch: 0, Batch: 40, Time elapsed: 0.00s
+[17:23:43.071] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:43.072] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:43.073] DEBUG: Data transferred to GPU
+[17:23:43.497] DEBUG: Forward pass completed
+[17:23:43.520] DEBUG: Loss calculated: Total: 1.0139243602752686, CE: 0.14458300173282623, Dice: 0.8693413734436035
+[17:23:46.077] DEBUG: Backward pass and optimizer step completed
+[17:23:46.079] DEBUG: Epoch: 0, Batch: 41, Time elapsed: 0.00s
+[17:23:46.080] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:46.080] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:46.081] DEBUG: Data transferred to GPU
+[17:23:46.504] DEBUG: Forward pass completed
+[17:23:46.527] DEBUG: Loss calculated: Total: 0.979102611541748, CE: 0.2594253122806549, Dice: 0.7196773290634155
+[17:23:49.085] DEBUG: Backward pass and optimizer step completed
+[17:23:49.086] DEBUG: Epoch: 0, Batch: 42, Time elapsed: 0.00s
+[17:23:49.087] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:49.087] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:49.088] DEBUG: Data transferred to GPU
+[17:23:49.511] DEBUG: Forward pass completed
+[17:23:49.534] DEBUG: Loss calculated: Total: 0.7827469110488892, CE: 0.19426190853118896, Dice: 0.5884850025177002
+[17:23:52.091] DEBUG: Backward pass and optimizer step completed
+[17:23:52.092] DEBUG: Epoch: 0, Batch: 43, Time elapsed: 0.00s
+[17:23:52.093] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:52.093] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:52.094] DEBUG: Data transferred to GPU
+[17:23:52.520] DEBUG: Forward pass completed
+[17:23:52.542] DEBUG: Loss calculated: Total: 0.8331697583198547, CE: 0.1761958748102188, Dice: 0.6569738984107971
+[17:23:55.106] DEBUG: Backward pass and optimizer step completed
+[17:23:55.108] DEBUG: Epoch: 0, Batch: 44, Time elapsed: 0.00s
+[17:23:55.108] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:55.109] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:55.109] DEBUG: Data transferred to GPU
+[17:23:55.540] DEBUG: Forward pass completed
+[17:23:55.562] DEBUG: Loss calculated: Total: 0.8540093302726746, CE: 0.18357260525226593, Dice: 0.6704367399215698
+[17:23:58.121] DEBUG: Backward pass and optimizer step completed
+[17:23:58.123] DEBUG: Epoch: 0, Batch: 45, Time elapsed: 0.00s
+[17:23:58.124] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:23:58.124] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:23:58.125] DEBUG: Data transferred to GPU
+[17:23:58.547] DEBUG: Forward pass completed
+[17:23:58.570] DEBUG: Loss calculated: Total: 1.018524169921875, CE: 0.3115089535713196, Dice: 0.7070152759552002
+[17:24:01.132] DEBUG: Backward pass and optimizer step completed
+[17:24:01.134] DEBUG: Epoch: 0, Batch: 46, Time elapsed: 0.00s
+[17:24:01.134] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:01.135] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:01.136] DEBUG: Data transferred to GPU
+[17:24:01.559] DEBUG: Forward pass completed
+[17:24:01.582] DEBUG: Loss calculated: Total: 0.9500182271003723, CE: 0.19389158487319946, Dice: 0.7561266422271729
+[17:24:04.141] DEBUG: Backward pass and optimizer step completed
+[17:24:04.142] DEBUG: Epoch: 0, Batch: 47, Time elapsed: 0.00s
+[17:24:04.143] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:04.143] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:04.144] DEBUG: Data transferred to GPU
+[17:24:04.569] DEBUG: Forward pass completed
+[17:24:04.592] DEBUG: Loss calculated: Total: 0.7590922117233276, CE: 0.17655164003372192, Dice: 0.5825405716896057
+[17:24:07.152] DEBUG: Backward pass and optimizer step completed
+[17:24:07.154] DEBUG: Epoch: 0, Batch: 48, Time elapsed: 0.00s
+[17:24:07.155] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:07.155] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:07.156] DEBUG: Data transferred to GPU
+[17:24:07.579] DEBUG: Forward pass completed
+[17:24:07.602] DEBUG: Loss calculated: Total: 0.7367295622825623, CE: 0.2101677656173706, Dice: 0.5265617966651917
+[17:24:10.160] DEBUG: Backward pass and optimizer step completed
+[17:24:10.161] DEBUG: Epoch: 0, Batch: 49, Time elapsed: 0.00s
+[17:24:10.162] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:10.162] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:10.163] DEBUG: Data transferred to GPU
+[17:24:10.589] DEBUG: Forward pass completed
+[17:24:10.612] DEBUG: Loss calculated: Total: 1.1638927459716797, CE: 0.28470516204833984, Dice: 0.8791875243186951
+[17:24:13.233] DEBUG: Backward pass and optimizer step completed
+[17:24:13.236] DEBUG: Epoch: 0, Batch: 50, Time elapsed: 0.00s
+[17:24:13.236] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:13.236] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:13.237] DEBUG: Data transferred to GPU
+[17:24:13.666] DEBUG: Forward pass completed
+[17:24:13.689] DEBUG: Loss calculated: Total: 1.021336317062378, CE: 0.2669394910335541, Dice: 0.7543968558311462
+[17:24:16.250] DEBUG: Backward pass and optimizer step completed
+[17:24:16.253] INFO: iteration: 50 Total loss : 1.021336 CE loss : 0.266939 Dice loss : 0.754397
+[17:24:16.253] DEBUG: Epoch: 0, Batch: 51, Time elapsed: 0.00s
+[17:24:16.254] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:16.254] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:16.255] DEBUG: Data transferred to GPU
+[17:24:16.681] DEBUG: Forward pass completed
+[17:24:16.704] DEBUG: Loss calculated: Total: 0.873540997505188, CE: 0.29969143867492676, Dice: 0.5738495588302612
+[17:24:19.268] DEBUG: Backward pass and optimizer step completed
+[17:24:19.271] DEBUG: Epoch: 0, Batch: 52, Time elapsed: 0.00s
+[17:24:19.272] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:19.272] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:19.273] DEBUG: Data transferred to GPU
+[17:24:19.698] DEBUG: Forward pass completed
+[17:24:19.721] DEBUG: Loss calculated: Total: 0.8565000295639038, CE: 0.27368807792663574, Dice: 0.5828119516372681
+[17:24:22.282] DEBUG: Backward pass and optimizer step completed
+[17:24:22.284] DEBUG: Epoch: 0, Batch: 53, Time elapsed: 0.00s
+[17:24:22.285] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:22.285] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:22.286] DEBUG: Data transferred to GPU
+[17:24:22.712] DEBUG: Forward pass completed
+[17:24:22.734] DEBUG: Loss calculated: Total: 0.7331056594848633, CE: 0.17847739160060883, Dice: 0.5546282529830933
+[17:24:25.297] DEBUG: Backward pass and optimizer step completed
+[17:24:25.299] DEBUG: Epoch: 0, Batch: 54, Time elapsed: 0.00s
+[17:24:25.299] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:25.299] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:25.300] DEBUG: Data transferred to GPU
+[17:24:25.724] DEBUG: Forward pass completed
+[17:24:25.747] DEBUG: Loss calculated: Total: 0.9273528456687927, CE: 0.31954848766326904, Dice: 0.6078043580055237
+[17:24:28.310] DEBUG: Backward pass and optimizer step completed
+[17:24:28.312] DEBUG: Epoch: 0, Batch: 55, Time elapsed: 0.00s
+[17:24:28.313] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:28.313] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:28.314] DEBUG: Data transferred to GPU
+[17:24:28.736] DEBUG: Forward pass completed
+[17:24:28.759] DEBUG: Loss calculated: Total: 0.6896286010742188, CE: 0.18319198489189148, Dice: 0.5064365863800049
+[17:24:31.323] DEBUG: Backward pass and optimizer step completed
+[17:24:31.324] DEBUG: Epoch: 0, Batch: 56, Time elapsed: 0.00s
+[17:24:31.325] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:31.325] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:31.326] DEBUG: Data transferred to GPU
+[17:24:31.749] DEBUG: Forward pass completed
+[17:24:31.772] DEBUG: Loss calculated: Total: 0.7174164056777954, CE: 0.18255481123924255, Dice: 0.5348615646362305
+[17:24:34.335] DEBUG: Backward pass and optimizer step completed
+[17:24:34.337] DEBUG: Epoch: 0, Batch: 57, Time elapsed: 0.00s
+[17:24:34.338] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:34.338] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:34.339] DEBUG: Data transferred to GPU
+[17:24:34.763] DEBUG: Forward pass completed
+[17:24:34.786] DEBUG: Loss calculated: Total: 0.8646231889724731, CE: 0.25901052355766296, Dice: 0.6056126952171326
+[17:24:37.348] DEBUG: Backward pass and optimizer step completed
+[17:24:37.350] DEBUG: Epoch: 0, Batch: 58, Time elapsed: 0.00s
+[17:24:37.351] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:37.351] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:37.352] DEBUG: Data transferred to GPU
+[17:24:37.774] DEBUG: Forward pass completed
+[17:24:37.797] DEBUG: Loss calculated: Total: 0.8504063487052917, CE: 0.21201486885547638, Dice: 0.6383914947509766
+[17:24:40.358] DEBUG: Backward pass and optimizer step completed
+[17:24:40.359] DEBUG: Epoch: 0, Batch: 59, Time elapsed: 0.00s
+[17:24:40.360] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:40.360] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:40.361] DEBUG: Data transferred to GPU
+[17:24:40.784] DEBUG: Forward pass completed
+[17:24:40.807] DEBUG: Loss calculated: Total: 0.7408143281936646, CE: 0.24889247119426727, Dice: 0.4919218420982361
+[17:24:43.369] DEBUG: Backward pass and optimizer step completed
+[17:24:43.370] DEBUG: Epoch: 0, Batch: 60, Time elapsed: 0.00s
+[17:24:43.371] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:43.371] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:43.372] DEBUG: Data transferred to GPU
+[17:24:43.795] DEBUG: Forward pass completed
+[17:24:43.817] DEBUG: Loss calculated: Total: 1.0724287033081055, CE: 0.33076387643814087, Dice: 0.7416648268699646
+[17:24:46.379] DEBUG: Backward pass and optimizer step completed
+[17:24:46.381] DEBUG: Epoch: 0, Batch: 61, Time elapsed: 0.00s
+[17:24:46.381] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:46.382] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:46.383] DEBUG: Data transferred to GPU
+[17:24:46.811] DEBUG: Forward pass completed
+[17:24:46.834] DEBUG: Loss calculated: Total: 0.8956547379493713, CE: 0.15163080394268036, Dice: 0.7440239191055298
+[17:24:49.398] DEBUG: Backward pass and optimizer step completed
+[17:24:49.486] DEBUG: Starting epoch 1
+[17:24:49.817] DEBUG: Epoch: 1, Batch: 0, Time elapsed: 0.33s
+[17:24:49.818] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:49.818] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:49.819] DEBUG: Data transferred to GPU
+[17:24:50.272] DEBUG: Forward pass completed
+[17:24:50.294] DEBUG: Loss calculated: Total: 0.8577960729598999, CE: 0.23064175248146057, Dice: 0.6271543502807617
+[17:24:52.857] DEBUG: Backward pass and optimizer step completed
+[17:24:52.860] DEBUG: Epoch: 1, Batch: 1, Time elapsed: 0.00s
+[17:24:52.860] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:52.860] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:52.861] DEBUG: Data transferred to GPU
+[17:24:53.287] DEBUG: Forward pass completed
+[17:24:53.310] DEBUG: Loss calculated: Total: 0.8690594434738159, CE: 0.2751779854297638, Dice: 0.5938814878463745
+[17:24:55.875] DEBUG: Backward pass and optimizer step completed
+[17:24:55.876] DEBUG: Epoch: 1, Batch: 2, Time elapsed: 0.00s
+[17:24:55.877] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:55.877] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:55.878] DEBUG: Data transferred to GPU
+[17:24:56.301] DEBUG: Forward pass completed
+[17:24:56.324] DEBUG: Loss calculated: Total: 1.3974236249923706, CE: 0.496480792760849, Dice: 0.9009428024291992
+[17:24:58.883] DEBUG: Backward pass and optimizer step completed
+[17:24:58.884] DEBUG: Epoch: 1, Batch: 3, Time elapsed: 0.00s
+[17:24:58.885] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:24:58.885] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:24:58.886] DEBUG: Data transferred to GPU
+[17:24:59.312] DEBUG: Forward pass completed
+[17:24:59.334] DEBUG: Loss calculated: Total: 0.6938498616218567, CE: 0.13249820470809937, Dice: 0.5613516569137573
+[17:25:01.898] DEBUG: Backward pass and optimizer step completed
+[17:25:01.900] DEBUG: Epoch: 1, Batch: 4, Time elapsed: 0.00s
+[17:25:01.900] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:01.900] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:01.901] DEBUG: Data transferred to GPU
+[17:25:02.329] DEBUG: Forward pass completed
+[17:25:02.352] DEBUG: Loss calculated: Total: 0.7712639570236206, CE: 0.15229180455207825, Dice: 0.6189721822738647
+[17:25:04.911] DEBUG: Backward pass and optimizer step completed
+[17:25:04.913] DEBUG: Epoch: 1, Batch: 5, Time elapsed: 0.00s
+[17:25:04.913] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:04.914] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:04.915] DEBUG: Data transferred to GPU
+[17:25:05.338] DEBUG: Forward pass completed
+[17:25:05.361] DEBUG: Loss calculated: Total: 0.7165433764457703, CE: 0.19034264981746674, Dice: 0.5262007117271423
+[17:25:07.925] DEBUG: Backward pass and optimizer step completed
+[17:25:07.926] DEBUG: Epoch: 1, Batch: 6, Time elapsed: 0.00s
+[17:25:07.927] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:07.927] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:07.928] DEBUG: Data transferred to GPU
+[17:25:08.356] DEBUG: Forward pass completed
+[17:25:08.379] DEBUG: Loss calculated: Total: 0.646293580532074, CE: 0.18016614019870758, Dice: 0.4661274552345276
+[17:25:10.940] DEBUG: Backward pass and optimizer step completed
+[17:25:10.942] DEBUG: Epoch: 1, Batch: 7, Time elapsed: 0.00s
+[17:25:10.942] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:10.942] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:10.943] DEBUG: Data transferred to GPU
+[17:25:11.371] DEBUG: Forward pass completed
+[17:25:11.394] DEBUG: Loss calculated: Total: 0.6954671740531921, CE: 0.179323211312294, Dice: 0.5161439776420593
+[17:25:13.959] DEBUG: Backward pass and optimizer step completed
+[17:25:13.960] DEBUG: Epoch: 1, Batch: 8, Time elapsed: 0.00s
+[17:25:13.961] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:13.961] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:13.962] DEBUG: Data transferred to GPU
+[17:25:14.386] DEBUG: Forward pass completed
+[17:25:14.408] DEBUG: Loss calculated: Total: 0.9007426500320435, CE: 0.20143577456474304, Dice: 0.699306845664978
+[17:25:16.970] DEBUG: Backward pass and optimizer step completed
+[17:25:16.972] DEBUG: Epoch: 1, Batch: 9, Time elapsed: 0.00s
+[17:25:16.973] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:16.973] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:16.974] DEBUG: Data transferred to GPU
+[17:25:17.396] DEBUG: Forward pass completed
+[17:25:17.419] DEBUG: Loss calculated: Total: 0.6079105734825134, CE: 0.11308681219816208, Dice: 0.49482375383377075
+[17:25:19.986] DEBUG: Backward pass and optimizer step completed
+[17:25:19.989] DEBUG: Epoch: 1, Batch: 10, Time elapsed: 0.00s
+[17:25:19.989] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:19.989] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:19.990] DEBUG: Data transferred to GPU
+[17:25:20.418] DEBUG: Forward pass completed
+[17:25:20.440] DEBUG: Loss calculated: Total: 0.9057241082191467, CE: 0.2431267946958542, Dice: 0.6625972986221313
+[17:25:23.002] DEBUG: Backward pass and optimizer step completed
+[17:25:23.003] DEBUG: Epoch: 1, Batch: 11, Time elapsed: 0.00s
+[17:25:23.004] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:23.004] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:23.005] DEBUG: Data transferred to GPU
+[17:25:23.430] DEBUG: Forward pass completed
+[17:25:23.452] DEBUG: Loss calculated: Total: 0.844515860080719, CE: 0.1448303610086441, Dice: 0.6996855139732361
+[17:25:26.016] DEBUG: Backward pass and optimizer step completed
+[17:25:26.017] DEBUG: Epoch: 1, Batch: 12, Time elapsed: 0.00s
+[17:25:26.018] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:26.018] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:26.019] DEBUG: Data transferred to GPU
+[17:25:26.444] DEBUG: Forward pass completed
+[17:25:26.467] DEBUG: Loss calculated: Total: 0.8533997535705566, CE: 0.19979892671108246, Dice: 0.653600811958313
+[17:25:29.028] DEBUG: Backward pass and optimizer step completed
+[17:25:29.030] DEBUG: Epoch: 1, Batch: 13, Time elapsed: 0.00s
+[17:25:29.030] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:29.030] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:29.032] DEBUG: Data transferred to GPU
+[17:25:29.459] DEBUG: Forward pass completed
+[17:25:29.482] DEBUG: Loss calculated: Total: 0.8667007684707642, CE: 0.19401052594184875, Dice: 0.6726902723312378
+[17:25:32.046] DEBUG: Backward pass and optimizer step completed
+[17:25:32.049] DEBUG: Epoch: 1, Batch: 14, Time elapsed: 0.00s
+[17:25:32.049] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:32.050] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:32.051] DEBUG: Data transferred to GPU
+[17:25:32.478] DEBUG: Forward pass completed
+[17:25:32.501] DEBUG: Loss calculated: Total: 0.6745845079421997, CE: 0.11088612675666809, Dice: 0.563698410987854
+[17:25:35.067] DEBUG: Backward pass and optimizer step completed
+[17:25:35.069] DEBUG: Epoch: 1, Batch: 15, Time elapsed: 0.00s
+[17:25:35.070] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:35.070] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:35.071] DEBUG: Data transferred to GPU
+[17:25:35.495] DEBUG: Forward pass completed
+[17:25:35.518] DEBUG: Loss calculated: Total: 1.0002667903900146, CE: 0.27832573652267456, Dice: 0.7219411134719849
+[17:25:38.084] DEBUG: Backward pass and optimizer step completed
+[17:25:38.085] DEBUG: Epoch: 1, Batch: 16, Time elapsed: 0.00s
+[17:25:38.086] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:38.086] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:38.087] DEBUG: Data transferred to GPU
+[17:25:38.512] DEBUG: Forward pass completed
+[17:25:38.535] DEBUG: Loss calculated: Total: 0.7385548949241638, CE: 0.18717558681964874, Dice: 0.5513793230056763
+[17:25:41.097] DEBUG: Backward pass and optimizer step completed
+[17:25:41.099] DEBUG: Epoch: 1, Batch: 17, Time elapsed: 0.00s
+[17:25:41.099] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:41.100] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:41.100] DEBUG: Data transferred to GPU
+[17:25:41.524] DEBUG: Forward pass completed
+[17:25:41.547] DEBUG: Loss calculated: Total: 0.6426678895950317, CE: 0.10967811942100525, Dice: 0.5329897403717041
+[17:25:44.140] DEBUG: Backward pass and optimizer step completed
+[17:25:44.142] DEBUG: Epoch: 1, Batch: 18, Time elapsed: 0.00s
+[17:25:44.143] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:44.143] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:44.144] DEBUG: Data transferred to GPU
+[17:25:44.569] DEBUG: Forward pass completed
+[17:25:44.592] DEBUG: Loss calculated: Total: 0.7645657658576965, CE: 0.17739886045455933, Dice: 0.5871669054031372
+[17:25:47.154] DEBUG: Backward pass and optimizer step completed
+[17:25:47.157] DEBUG: Epoch: 1, Batch: 19, Time elapsed: 0.00s
+[17:25:47.157] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:47.157] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:47.158] DEBUG: Data transferred to GPU
+[17:25:47.583] DEBUG: Forward pass completed
+[17:25:47.606] DEBUG: Loss calculated: Total: 0.6586248874664307, CE: 0.11711369454860687, Dice: 0.5415111780166626
+[17:25:50.173] DEBUG: Backward pass and optimizer step completed
+[17:25:50.174] DEBUG: Epoch: 1, Batch: 20, Time elapsed: 0.00s
+[17:25:50.175] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:50.175] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:50.176] DEBUG: Data transferred to GPU
+[17:25:50.600] DEBUG: Forward pass completed
+[17:25:50.623] DEBUG: Loss calculated: Total: 0.7418811917304993, CE: 0.1991521269083023, Dice: 0.5427290797233582
+[17:25:53.187] DEBUG: Backward pass and optimizer step completed
+[17:25:53.188] DEBUG: Epoch: 1, Batch: 21, Time elapsed: 0.00s
+[17:25:53.189] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:53.189] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:53.190] DEBUG: Data transferred to GPU
+[17:25:53.613] DEBUG: Forward pass completed
+[17:25:53.636] DEBUG: Loss calculated: Total: 0.8886274695396423, CE: 0.2138025164604187, Dice: 0.6748249530792236
+[17:25:56.200] DEBUG: Backward pass and optimizer step completed
+[17:25:56.202] DEBUG: Epoch: 1, Batch: 22, Time elapsed: 0.00s
+[17:25:56.202] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:56.202] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:56.203] DEBUG: Data transferred to GPU
+[17:25:56.628] DEBUG: Forward pass completed
+[17:25:56.650] DEBUG: Loss calculated: Total: 1.1232727766036987, CE: 0.12906137108802795, Dice: 0.9942114353179932
+[17:25:59.215] DEBUG: Backward pass and optimizer step completed
+[17:25:59.217] DEBUG: Epoch: 1, Batch: 23, Time elapsed: 0.00s
+[17:25:59.217] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:25:59.217] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:25:59.218] DEBUG: Data transferred to GPU
+[17:25:59.643] DEBUG: Forward pass completed
+[17:25:59.666] DEBUG: Loss calculated: Total: 0.8396421670913696, CE: 0.23332002758979797, Dice: 0.6063221096992493
+[17:26:02.231] DEBUG: Backward pass and optimizer step completed
+[17:26:02.234] DEBUG: Epoch: 1, Batch: 24, Time elapsed: 0.00s
+[17:26:02.234] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:02.235] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:02.236] DEBUG: Data transferred to GPU
+[17:26:02.660] DEBUG: Forward pass completed
+[17:26:02.683] DEBUG: Loss calculated: Total: 0.713965117931366, CE: 0.1931285709142685, Dice: 0.5208365321159363
+[17:26:05.246] DEBUG: Backward pass and optimizer step completed
+[17:26:05.248] DEBUG: Epoch: 1, Batch: 25, Time elapsed: 0.00s
+[17:26:05.249] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:05.249] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:05.250] DEBUG: Data transferred to GPU
+[17:26:05.674] DEBUG: Forward pass completed
+[17:26:05.697] DEBUG: Loss calculated: Total: 0.7075190544128418, CE: 0.19933632016181946, Dice: 0.5081827044487
+[17:26:08.263] DEBUG: Backward pass and optimizer step completed
+[17:26:08.265] DEBUG: Epoch: 1, Batch: 26, Time elapsed: 0.00s
+[17:26:08.266] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:08.266] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:08.267] DEBUG: Data transferred to GPU
+[17:26:08.690] DEBUG: Forward pass completed
+[17:26:08.713] DEBUG: Loss calculated: Total: 1.118726134300232, CE: 0.14876721799373627, Dice: 0.9699589014053345
+[17:26:11.276] DEBUG: Backward pass and optimizer step completed
+[17:26:11.277] DEBUG: Epoch: 1, Batch: 27, Time elapsed: 0.00s
+[17:26:11.278] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:11.278] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:11.279] DEBUG: Data transferred to GPU
+[17:26:11.709] DEBUG: Forward pass completed
+[17:26:11.732] DEBUG: Loss calculated: Total: 0.7206999659538269, CE: 0.15397876501083374, Dice: 0.5667212009429932
+[17:26:14.300] DEBUG: Backward pass and optimizer step completed
+[17:26:14.301] DEBUG: Epoch: 1, Batch: 28, Time elapsed: 0.00s
+[17:26:14.302] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:14.302] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:14.303] DEBUG: Data transferred to GPU
+[17:26:14.729] DEBUG: Forward pass completed
+[17:26:14.752] DEBUG: Loss calculated: Total: 0.9942495822906494, CE: 0.24077945947647095, Dice: 0.7534701228141785
+[17:26:17.315] DEBUG: Backward pass and optimizer step completed
+[17:26:17.317] DEBUG: Epoch: 1, Batch: 29, Time elapsed: 0.00s
+[17:26:17.318] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:17.318] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:17.319] DEBUG: Data transferred to GPU
+[17:26:17.747] DEBUG: Forward pass completed
+[17:26:17.770] DEBUG: Loss calculated: Total: 1.2910524606704712, CE: 0.3700062036514282, Dice: 0.921046257019043
+[17:26:20.338] DEBUG: Backward pass and optimizer step completed
+[17:26:20.340] DEBUG: Epoch: 1, Batch: 30, Time elapsed: 0.00s
+[17:26:20.341] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:20.341] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:20.342] DEBUG: Data transferred to GPU
+[17:26:20.769] DEBUG: Forward pass completed
+[17:26:20.792] DEBUG: Loss calculated: Total: 0.6595679521560669, CE: 0.20978137850761414, Dice: 0.44978660345077515
+[17:26:23.355] DEBUG: Backward pass and optimizer step completed
+[17:26:23.357] DEBUG: Epoch: 1, Batch: 31, Time elapsed: 0.00s
+[17:26:23.358] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:23.358] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:23.359] DEBUG: Data transferred to GPU
+[17:26:23.784] DEBUG: Forward pass completed
+[17:26:23.806] DEBUG: Loss calculated: Total: 1.0511248111724854, CE: 0.2927780747413635, Dice: 0.7583467960357666
+[17:26:26.371] DEBUG: Backward pass and optimizer step completed
+[17:26:26.373] DEBUG: Epoch: 1, Batch: 32, Time elapsed: 0.00s
+[17:26:26.373] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:26.373] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:26.374] DEBUG: Data transferred to GPU
+[17:26:26.802] DEBUG: Forward pass completed
+[17:26:26.825] DEBUG: Loss calculated: Total: 0.8279616832733154, CE: 0.22757618129253387, Dice: 0.6003854870796204
+[17:26:29.394] DEBUG: Backward pass and optimizer step completed
+[17:26:29.396] DEBUG: Epoch: 1, Batch: 33, Time elapsed: 0.00s
+[17:26:29.397] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:29.397] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:29.398] DEBUG: Data transferred to GPU
+[17:26:29.827] DEBUG: Forward pass completed
+[17:26:29.850] DEBUG: Loss calculated: Total: 0.6285198926925659, CE: 0.1734733283519745, Dice: 0.4550465941429138
+[17:26:32.420] DEBUG: Backward pass and optimizer step completed
+[17:26:32.422] DEBUG: Epoch: 1, Batch: 34, Time elapsed: 0.00s
+[17:26:32.423] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:32.423] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:32.424] DEBUG: Data transferred to GPU
+[17:26:32.858] DEBUG: Forward pass completed
+[17:26:32.880] DEBUG: Loss calculated: Total: 0.9797496795654297, CE: 0.25621429085731506, Dice: 0.723535418510437
+[17:26:35.453] DEBUG: Backward pass and optimizer step completed
+[17:26:35.455] DEBUG: Epoch: 1, Batch: 35, Time elapsed: 0.00s
+[17:26:35.455] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:35.456] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:35.457] DEBUG: Data transferred to GPU
+[17:26:35.882] DEBUG: Forward pass completed
+[17:26:35.904] DEBUG: Loss calculated: Total: 0.9827845692634583, CE: 0.24067431688308716, Dice: 0.7421102523803711
+[17:26:38.472] DEBUG: Backward pass and optimizer step completed
+[17:26:38.474] DEBUG: Epoch: 1, Batch: 36, Time elapsed: 0.00s
+[17:26:38.474] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:38.474] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:38.475] DEBUG: Data transferred to GPU
+[17:26:38.905] DEBUG: Forward pass completed
+[17:26:38.928] DEBUG: Loss calculated: Total: 1.082601547241211, CE: 0.29720714688301086, Dice: 0.7853944301605225
+[17:26:41.496] DEBUG: Backward pass and optimizer step completed
+[17:26:41.498] DEBUG: Epoch: 1, Batch: 37, Time elapsed: 0.00s
+[17:26:41.498] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:41.499] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:41.499] DEBUG: Data transferred to GPU
+[17:26:41.932] DEBUG: Forward pass completed
+[17:26:41.954] DEBUG: Loss calculated: Total: 0.7121917009353638, CE: 0.17357231676578522, Dice: 0.5386193990707397
+[17:26:44.523] DEBUG: Backward pass and optimizer step completed
+[17:26:44.525] DEBUG: Epoch: 1, Batch: 38, Time elapsed: 0.00s
+[17:26:44.526] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:44.526] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:44.527] DEBUG: Data transferred to GPU
+[17:26:44.950] DEBUG: Forward pass completed
+[17:26:44.973] DEBUG: Loss calculated: Total: 0.742078423500061, CE: 0.20321646332740784, Dice: 0.5388619899749756
+[17:26:47.538] DEBUG: Backward pass and optimizer step completed
+[17:26:47.540] INFO: iteration: 100 Total loss : 0.742078 CE loss : 0.203216 Dice loss : 0.538862
+[17:26:47.541] DEBUG: Epoch: 1, Batch: 39, Time elapsed: 0.00s
+[17:26:47.541] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:47.541] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:47.542] DEBUG: Data transferred to GPU
+[17:26:47.969] DEBUG: Forward pass completed
+[17:26:47.992] DEBUG: Loss calculated: Total: 0.7124599814414978, CE: 0.21261583268642426, Dice: 0.49984413385391235
+[17:26:50.569] DEBUG: Backward pass and optimizer step completed
+[17:26:50.571] DEBUG: Epoch: 1, Batch: 40, Time elapsed: 0.00s
+[17:26:50.571] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:50.571] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:50.572] DEBUG: Data transferred to GPU
+[17:26:50.997] DEBUG: Forward pass completed
+[17:26:51.020] DEBUG: Loss calculated: Total: 0.9350757002830505, CE: 0.14142243564128876, Dice: 0.7936532497406006
+[17:26:53.582] DEBUG: Backward pass and optimizer step completed
+[17:26:53.584] DEBUG: Epoch: 1, Batch: 41, Time elapsed: 0.00s
+[17:26:53.585] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:53.585] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:53.586] DEBUG: Data transferred to GPU
+[17:26:54.011] DEBUG: Forward pass completed
+[17:26:54.034] DEBUG: Loss calculated: Total: 1.1302549839019775, CE: 0.2933177351951599, Dice: 0.8369371891021729
+[17:26:56.599] DEBUG: Backward pass and optimizer step completed
+[17:26:56.600] DEBUG: Epoch: 1, Batch: 42, Time elapsed: 0.00s
+[17:26:56.601] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:56.601] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:56.602] DEBUG: Data transferred to GPU
+[17:26:57.026] DEBUG: Forward pass completed
+[17:26:57.049] DEBUG: Loss calculated: Total: 0.8312098979949951, CE: 0.19389747083187103, Dice: 0.6373124122619629
+[17:26:59.615] DEBUG: Backward pass and optimizer step completed
+[17:26:59.617] DEBUG: Epoch: 1, Batch: 43, Time elapsed: 0.00s
+[17:26:59.617] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:26:59.617] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:26:59.618] DEBUG: Data transferred to GPU
+[17:27:00.049] DEBUG: Forward pass completed
+[17:27:00.072] DEBUG: Loss calculated: Total: 0.8334934711456299, CE: 0.17641669511795044, Dice: 0.6570767760276794
+[17:27:02.642] DEBUG: Backward pass and optimizer step completed
+[17:27:02.643] DEBUG: Epoch: 1, Batch: 44, Time elapsed: 0.00s
+[17:27:02.644] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:27:02.644] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:27:02.645] DEBUG: Data transferred to GPU
+[17:27:03.071] DEBUG: Forward pass completed
+[17:27:03.094] DEBUG: Loss calculated: Total: 0.8137349486351013, CE: 0.17612160742282867, Dice: 0.6376133561134338
+[17:27:05.659] DEBUG: Backward pass and optimizer step completed
+[17:27:05.661] DEBUG: Epoch: 1, Batch: 45, Time elapsed: 0.00s
+[17:27:05.662] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:27:05.662] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:27:05.663] DEBUG: Data transferred to GPU
+[17:27:06.090] DEBUG: Forward pass completed
+[17:27:06.113] DEBUG: Loss calculated: Total: 1.0922796726226807, CE: 0.31866493821144104, Dice: 0.7736147046089172
+[17:27:08.679] DEBUG: Backward pass and optimizer step completed
+[17:27:08.681] DEBUG: Epoch: 1, Batch: 46, Time elapsed: 0.00s
+[17:27:08.681] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:27:08.681] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:27:08.683] DEBUG: Data transferred to GPU
+[17:27:09.106] DEBUG: Forward pass completed
+[17:27:09.129] DEBUG: Loss calculated: Total: 0.9321538209915161, CE: 0.186091810464859, Dice: 0.7460620403289795
+[17:27:11.692] DEBUG: Backward pass and optimizer step completed
+[17:27:11.695] DEBUG: Epoch: 1, Batch: 47, Time elapsed: 0.00s
+[17:27:11.695] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:27:11.695] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:27:11.696] DEBUG: Data transferred to GPU
+[17:27:12.121] DEBUG: Forward pass completed
+[17:27:12.143] DEBUG: Loss calculated: Total: 0.7004454135894775, CE: 0.16259852051734924, Dice: 0.5378469228744507
+[17:27:14.712] DEBUG: Backward pass and optimizer step completed
+[17:27:14.713] DEBUG: Epoch: 1, Batch: 48, Time elapsed: 0.00s
+[17:27:14.714] DEBUG: Volume batch1 shape: torch.Size([1, 1, 96, 96, 96]), Label batch1 shape: torch.Size([1, 96, 96, 96])
+[17:27:14.714] DEBUG: Volume batch2 shape: torch.Size([1, 1, 96, 96, 96]), Label batch2 shape: torch.Size([1, 96, 96, 96])
+[17:27:14.715] DEBUG: Data transferred to GPU
+[17:27:15.138] DEBUG: Forward pass completed
+[17:27:15.161] DEBUG: Loss calculated: Total: 0.6821231245994568, CE: 0.189631387591362, Dice: 0.4924917221069336
+[17:27:20.923] INFO: Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[17:27:25.174] INFO: 62 itertations per epoch
+[17:29:59.469] INFO: iteration: 50 Total loss : 1.021065 CE loss : 0.266801 Dice loss : 0.754264
+[17:32:30.589] INFO: iteration: 100 Total loss : 0.742180 CE loss : 0.203185 Dice loss : 0.538995
+[17:32:40.454] INFO: Namespace(base_lr=0.01, batch_size=8, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', deterministic=1, ema_decay=0.999, exp='pancreas1', gpu='0', labeled_bs=1, max_iterations=6000, root_path='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', seed=1337)
+[17:32:44.996] INFO: 62 itertations per epoch

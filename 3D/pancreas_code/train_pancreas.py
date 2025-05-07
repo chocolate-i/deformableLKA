@@ -23,7 +23,7 @@ from utils import ramps, losses
 from dataloaders.la_heart import LAHeart, RandomCrop, ToTensor
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--root_path', type=str, default='./dataset_pancreas', help='Name of Experiment')               # todo change dataset path
+parser.add_argument('--root_path', type=str, default='/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas/pancreas_data', help='Name of Experiment')               # todo change dataset path
 parser.add_argument('--exp', type=str,  default="pancreas1", help='model_name')                               # todo model name
 parser.add_argument('--max_iterations', type=int,  default=6000, help='maximum epoch number to train') # 6000
 parser.add_argument('--batch_size', type=int, default=8, help='batch_size per gpu')
@@ -40,8 +40,9 @@ parser.add_argument('--consistency_rampup', type=float,  default=40.0, help='con
 
 args = parser.parse_args()
 
-train_data_path = args.root_path
-snapshot_path = "./model/" + args.exp + "/"
+
+train_data_path = "/root/chennuo/deformableLKA/3D/pancreas_code/dataset_pancreas/Pancreas"
+snapshot_path = "/root/chennuo/deformableLKA/3D/pancreas_code/model/" + args.exp + "/"
 
 #os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 batch_size = args.batch_size * len(args.gpu.split(','))
@@ -94,12 +95,17 @@ if __name__ == "__main__":
     ## make logger file
     if not os.path.exists(snapshot_path):
         os.makedirs(snapshot_path)
+        logging.info(f"创建目录: {snapshot_path}")
     #if os.path.exists(snapshot_path + '/code'):
     #    shutil.rmtree(snapshot_path + '/code')
     #shutil.copytree('.', snapshot_path + '/code', shutil.ignore_patterns(['.git','__pycache__']))
 
-    logging.basicConfig(filename=snapshot_path+"/log.txt", level=logging.INFO,
-                        format='[%(asctime)s.%(msecs)03d] %(message)s', datefmt='%H:%M:%S')
+    logging.basicConfig(
+        filename=snapshot_path + "/log.txt",
+        level=logging.INFO,  # 修改回 INFO
+        format='[%(asctime)s.%(msecs)03d] %(levelname)s: %(message)s',
+        datefmt='%H:%M:%S'
+    )
     logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
     logging.info(str(args))
 
@@ -118,8 +124,13 @@ if __name__ == "__main__":
 
     model_d_lka_former = create_model(name='dlka_former')
 
-    db_train = LAHeart(base_dir=train_data_path, split='train', train_flod='train0.list', common_transform=transforms.Compose([RandomCrop(patch_size),]),
-                        sp_transform=transforms.Compose([ToTensor(),]))
+    db_train = LAHeart(
+        base_dir=train_data_path,
+        split='train',
+        train_flod='train0.list',
+        common_transform=transforms.Compose([RandomCrop(patch_size),]),
+        sp_transform=transforms.Compose([ToTensor(),])
+    )
 
 
     trainloader = DataLoader(db_train, batch_sampler=None, num_workers=4, pin_memory=True,
@@ -138,21 +149,24 @@ if __name__ == "__main__":
         time1 = time.time()
         for i_batch, sampled_batch in enumerate(trainloader):
             time2 = time.time()
-            print('epoch:{}, i_batch:{}'.format(epoch_num,i_batch))
+            print(f'epoch:{epoch_num}, i_batch:{i_batch}')
+            
             volume_batch1, volume_label1 = sampled_batch[0]['image'], sampled_batch[0]['label']
             volume_batch2, volume_label2 = sampled_batch[1]['image'], sampled_batch[1]['label']
+            
             # Transfer to GPU
-            lka_input,lka_label = volume_batch1.cuda(), volume_label1.cuda()
-
+            lka_input, lka_label = volume_batch1.cuda(), volume_label1.cuda()
+            
             # Network forward
             lka_outputs = model_d_lka_former(lka_input)
-
-            ## calculate the supervised loss           
+            
+            # Calculate the supervised loss
             lka_loss_seg = F.cross_entropy(lka_outputs[:labeled_bs], lka_label[:labeled_bs])
             lka_outputs_soft = F.softmax(lka_outputs, dim=1)
             lka_loss_seg_dice = losses.dice_loss(lka_outputs_soft[:labeled_bs, 1, :, :, :], lka_label[:labeled_bs] == 1)
             
             loss_total = lka_loss_seg + lka_loss_seg_dice
+            
             # Network backward
             d_lka_former_optimizer.zero_grad()
             loss_total.backward()
@@ -173,6 +187,11 @@ if __name__ == "__main__":
                 lr_ = lr_ * 0.1
                 for param_group in d_lka_former_optimizer.param_groups:
                     param_group['lr'] = lr_
+                
+                # 保存中间检查点
+                save_mode_path = os.path.join(snapshot_path, 'd_lka_former_iter_' + str(iter_num) + '.pth')
+                torch.save(model_d_lka_former.state_dict(), save_mode_path)
+                logging.info("保存检查点到 {}".format(save_mode_path))
 
             if iter_num >= max_iterations:
                 break
@@ -181,11 +200,23 @@ if __name__ == "__main__":
             iter_num = iter_num + 1
             if iter_num >= max_iterations:
                 break
-        if iter_num >= max_iterations:
-            break
+        # 添加此部分：在每个epoch结束时检查是否需要保存模型
+        if epoch_num % 5 == 0 and epoch_num != 0:
+            # 保存每5个epoch的检查点
+            save_mode_path = os.path.join(snapshot_path, 'd_lka_former_epoch_' + str(epoch_num) + '.pth')
+            torch.save(model_d_lka_former.state_dict(), save_mode_path)
+            logging.info("保存epoch检查点到 {}".format(save_mode_path))
+    
+    save_mode_path_lka_net = os.path.join("/root/chennuo/deformableLKA/3D/pancreas_code/model/", 
+                                        args.exp, 
+                                        'd_lka_former_iter_' + str(max_iterations) + '.pth')
+    # 在保存模型前确保目录存在
+    save_dir = os.path.dirname(save_mode_path_lka_net)
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+        logging.info(f"创建模型保存目录: {save_dir}")
 
-    save_mode_path_lka_net = os.path.join(snapshot_path, 'd_lka_former_iter_' + str(max_iterations) + '.pth')
     torch.save(model_d_lka_former.state_dict(), save_mode_path_lka_net)
-    logging.info("save model to {}".format(save_mode_path_lka_net))
+    logging.info("保存最终模型到 {}".format(save_mode_path_lka_net))
 
     writer.close()
